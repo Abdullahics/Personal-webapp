@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding-top: 60px; /* Adjust padding to avoid overlap with fixed header */
+}
+
+footer {
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Custom styles for responsive navbar */
+@media (min-width: 500px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-nav .nav-item {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+#intro-section {
+    padding: 100px 0;
+    text-align: center;
+    color:#8098ff; /* Text color */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+  
+}
+
+
+#skills-section {
+    background-color: #ffffff; /* White background */
+    padding: 100px 0; /* Padding for top and bottom */
+    text-align: center; /* Center align text */
+}
+
+#skills-section h2 {
+    font-size: 2.5rem; /* Large heading */
+    color: #333; /* Dark text color */
+}
+
+#skills-section h3 {
+    font-size: 1.8rem; /* Medium heading */
+    color: #555; /* Dark gray text color */
+    margin-bottom: 20px; /* Space below headings */
+}
+
+#skills-section ul {
+    list-style-type: none; /* Remove default list styles */
+    padding-left: 0; /* Remove left padding */
+}
+
+#skills-section ul li {
+    font-size: 1.2rem; /* List item text size */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+#testimonials-section {
+    background-color:#8098ff;/* #f8f9fa; /* Light background color */
+    padding: 100px 0; /* Padding for top and bottom */
+    text-align: center; /* Center align text */
+}
+
+#testimonials-section h2 {
+    font-size: 2.5rem; /* Large heading */
+    color: #333; /* Dark text color */
+}
+
+.card {
+    background-color: #8098ff; /* White card background */
+    border: none; /* No border */
+    margin-bottom: 30px; /* Spacing between cards */
+}
+
+.card-body {
+    padding: 30px; /* Padding inside card body */
+   /* background-color: #8098ff; */
+    
+}
+
+.card-text {
+    font-size: 1.2rem; /* Card text size */
+    line-height: 1.6; /* Line height for readability */
+}
+
+.card-text strong {
+    font-weight: bold; /* Bold client names */
+}
+
